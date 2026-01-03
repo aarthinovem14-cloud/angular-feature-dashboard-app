@@ -1,0 +1,57 @@
+
+<mat-sidenav-container class="example-container">
+
+ <!-- Side Navigation -->
+  <mat-sidenav mode="side" opened class="Sidenav">
+   <h3 class="menu-title">Menu</h3>
+    <a mat-button routerLink="/dashboard">Dashboard</a>
+    <a mat-button>Profile</a>
+    <a mat-button>Settings</a>
+  </mat-sidenav>
+
+
+  <!-- Main Content -->
+  <mat-sidenav-content>
+  
+ <!-- Toolbar -->
+<mat-toolbar class="my-toolbar">
+  <button matIconButton class="example-icon" aria-label="Example icon-button with menu icon">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <span>My App</span>
+  <span class="example-spacer"></span>
+  <button matIconButton class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+    <mat-icon>favorite</mat-icon>
+  </button>
+  <button matIconButton class="example-icon" aria-label="Example icon-button with share icon">
+    <mat-icon>share</mat-icon>
+  </button>
+</mat-toolbar>
+
+
+   <!-- Page Content -->
+    <div class="content">
+      <h2>Welcome</h2>
+      <p>Test content</p>
+    </div>
+   
+    
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+ 
+
+
+    
+    
+     
+   
+   
+
+
+
+
+
+
+  
+    <router-outlet />
+ 

@@ -1,0 +1,88 @@
+.example-spacer {
+  flex: 1 1 auto;
+  
+  
+}
+
+.mat-toolbar{
+background-color: black;
+
+
+}
+
+.mat-icon{
+    color: white;
+    
+
+}
+
+.my-toolbar {
+  color: white;
+}
+
+
+
+
+.example-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #eeeeee;
+}
+
+
+
+
+.sidenav-container {
+  height: 100vh;
+  width: 60px;      /* reduce width */
+  min-width: 160px;
+  padding: 10px;
+}
+  
+
+.sidenav {
+  width: 60px;      /* reduce width */
+  min-width: 160px;
+  padding: 10px;
+  
+
+}
+
+.menu-title {
+  margin: 10px;
+  font-weight: bold;
+  text-align: center;
+  font-size: xx-large;
+  text-decoration: underline;
+}
+
+.title {
+  margin-top: 10px;
+  
+}
+
+.content h2{
+  padding: 20px;
+  text-align: center;
+  font-size: xx-large;
+}
+
+.content p{
+    font-size: medium;
+}
+
+ 
+.Sidenav a[mat-button] {
+  margin-top: 20%;
+  width: 60%;
+  justify-content: flex-start;
+  font-size: large;
+}
+
+
+.Sidenav a[mat-button]:hover {
+  background-color: rgba(0, 0, 0, 0.08);
+}
