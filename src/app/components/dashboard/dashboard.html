@@ -1,2 +1,190 @@
-<img width="800" height="600" src="https://www.bootstrapdash.com/wp-content/uploads/2025/09/purple_admin_vue.png" class="card-img-top" loading="lazy" alt="Purple Admin Free">
-<router-outlet></router-outlet>
+<section class="kpi-grid">
+          <article class="card kpi-card" data-kpi="revenue">
+            <div class="kpi-header">
+              <span class="kpi-label">MRR</span>
+              <span class="kpi-tag positive">+18.4%</span>
+            </div>
+            <div class="kpi-main">
+              <span class="kpi-value">$84,230</span>
+              <span class="kpi-sub">vs last 30 days</span>
+            </div>
+            <div class="kpi-sparkline kpi-sparkline-1"></div>
+          </article>
+
+          <article class="card kpi-card" data-kpi="active-users">
+            <div class="kpi-header">
+              <span class="kpi-label">Active users</span>
+              <span class="kpi-tag neutral">Live</span>
+            </div>
+            <div class="kpi-main">
+              <span class="kpi-value">4,392</span>
+              <span class="kpi-sub">+326 today</span>
+            </div>
+            <div class="kpi-sparkline kpi-sparkline-2"></div>
+          </article>
+
+          <article class="card kpi-card" data-kpi="retention">
+            <div class="kpi-header">
+              <span class="kpi-label">Retention</span>
+              <span class="kpi-tag positive">92.1%</span>
+            </div>
+            <div class="kpi-main">
+              <span class="kpi-value">+6.3 pts</span>
+              <span class="kpi-sub">QoQ</span>
+            </div>
+            <div class="kpi-sparkline kpi-sparkline-3"></div>
+          </article>
+
+          <article class="card kpi-card" data-kpi="nps">
+            <div class="kpi-header">
+              <span class="kpi-label">NPS</span>
+              <span class="kpi-tag warning">Watch</span>
+            </div>
+            <div class="kpi-main">
+              <span class="kpi-value">47</span>
+              <span class="kpi-sub">Goal: 60</span>
+            </div>
+            <div class="kpi-sparkline kpi-sparkline-4"></div>
+          </article>
+        </section>
+
+
+        <article class="card focus-card">
+            <header class="card-header">
+              <div>
+                <h2>Revenue trajectory</h2>
+                <p>12-month MRR growth, segmented by plan type.</p>
+              </div>
+              <div class="chip-row">
+                <button class="chip chip-active" fdprocessedid="ribg6f">12 months</button>
+                <button class="chip" fdprocessedid="9ma58">30 days</button>
+                <button class="chip" fdprocessedid="05dtn8">7 days</button>
+              </div>
+            </header>
+            <div class="chart-shell">
+              <div class="chart-lines">
+                <div class="chart-line chart-line-1"></div>
+                <div class="chart-line chart-line-2"></div>
+              </div>
+              <div class="chart-grid"></div>
+              <div class="chart-legend">
+                <span class="legend-dot legend-1"></span>
+                <span>Pro</span>
+                <span class="legend-dot legend-2"></span>
+                <span>Teams</span>
+              </div>
+            </div>
+            <footer class="card-footer-meta">
+              <div>
+                <span class="meta-label">Projected ARR</span>
+                <span class="meta-value">$1.23M</span>
+              </div>
+              <div>
+                <span class="meta-label">Churn risk</span>
+                <span class="meta-value">Low</span>
+              </div>
+              <div>
+                <span class="meta-label">Top region</span>
+                <span class="meta-value">North America</span>
+              </div>
+            </footer>
+          </article>
+
+          <div class="side-column">
+            <article class="card">
+              <header class="card-header tight">
+                <div>
+                  <h2>Pipeline</h2>
+                  <p>Live forecast for this quarter.</p>
+                </div>
+                <span class="pill pill-soft">Confidence: High</span>
+              </header>
+              <div class="pipeline-list">
+                <div class="pipeline-row">
+                  <div class="pipeline-main">
+                    <span class="pipeline-label">Qualified</span>
+                    <span class="pipeline-sub">27 deals</span>
+                  </div>
+                  <div class="pipeline-meta">
+                    <span class="pipeline-value">$142k</span>
+                    <div class="pipeline-bar">
+                      <div style="width: 58%"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="pipeline-row">
+                  <div class="pipeline-main">
+                    <span class="pipeline-label">Negotiation</span>
+                    <span class="pipeline-sub">9 deals</span>
+                  </div>
+                  <div class="pipeline-meta">
+                    <span class="pipeline-value">$96k</span>
+                    <div class="pipeline-bar">
+                      <div style="width: 43%"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="pipeline-row">
+                  <div class="pipeline-main">
+                    <span class="pipeline-label">Closing</span>
+                    <span class="pipeline-sub">3 deals</span>
+                  </div>
+                  <div class="pipeline-meta">
+                    <span class="pipeline-value">$38k</span>
+                    <div class="pipeline-bar">
+                      <div style="width: 27%"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <article class="card">
+              <header class="card-header tight">
+                <div>
+                  <h2>Team load</h2>
+                  <p>Who’s currently at capacity.</p>
+                </div>
+                <button class="chip" fdprocessedid="analf">View board</button>
+              </header>
+              <div class="team-load">
+                <div class="team-row">
+                  <div class="team-main">
+                    <div class="avatar avatar-small">AK</div>
+                    <div>
+                      <span class="team-name">Amina Khan</span>
+                      <span class="team-role">Product Design</span>
+                    </div>
+                  </div>
+                  <div class="team-meta">
+                    <span class="pill pill-soft pill-green">78% load</span>
+                  </div>
+                </div>
+                <div class="team-row">
+                  <div class="team-main">
+                    <div class="avatar avatar-small">JL</div>
+                    <div>
+                      <span class="team-name">James Lee</span>
+                      <span class="team-role">Frontend</span>
+                    </div>
+                  </div>
+                  <div class="team-meta">
+                    <span class="pill pill-soft pill-amber">96% load</span>
+                  </div>
+                </div>
+                <div class="team-row">
+                  <div class="team-main">
+                    <div class="avatar avatar-small">SP</div>
+                    <div>
+                      <span class="team-name">Sara Park</span>
+                      <span class="team-role">Customer Success</span>
+                    </div>
+                  </div>
+                  <div class="team-meta">
+                    <span class="pill pill-soft">64% load</span>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        <router-outlet></router-outlet>
